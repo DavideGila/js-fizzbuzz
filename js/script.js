@@ -9,7 +9,7 @@ for(let i = 1; i <= 100; i++){
     let box = document.createElement('div');
     wrapper.append(box);
     wrapper.classList.add('d-flex', 'flex-wrap');
-    box.classList.add('border', 'box')
+    box.classList.add('border', 'box', 'd-flex', 'justify-content-center', 'align-items-center', 'm-1')
     box.innerHTML = i
 
     if(i % 3 === 0 && i % 5 === 0){ 
